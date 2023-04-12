@@ -141,15 +141,17 @@ body {
 }
 
 .contact-list {
-  font-size: 14px;
-  line-height: 1.14;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  color: var(--paragraf-text-color);
   display: flex;
-  column-gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 0;
+  align-items: center;
+}
+
+.contact-item {
+  font-weight: 500;
+  color: var(--paragraf-text-color);
+  display: flex;
+  align-items: center;
 }
 
 .contact-icon-envelope {
