@@ -152,6 +152,16 @@ body {
   padding-left: 0;
 }
 
+.contact-icon-envelope {
+  fill: var(--parrent-color);
+  width: 16px;
+}
+
+.contact-icon-smartphone {
+  fill: var(--parrent-color);
+  width: 16px;
+}
+
 .contact-list a {
   color: var(--text-secondary-color);
   text-decoration: none;
