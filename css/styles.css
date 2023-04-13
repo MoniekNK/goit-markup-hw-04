@@ -399,6 +399,49 @@ body {
 .address-link:focus {
   color: var(--text-tertiary-color);
 }
+
+.footer-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-header-top {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-tertiary-color);
+  padding-bottom: 20px;
+  padding-top: 12px;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer-list-icons {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.footer-link-icons {
+  display: flex;
+}
+
+.footer-link {
+  fill: var(--social-links-secondary-icon-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 16px 32px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  fill: var(--social-links-icon-hover-color);
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
 /*PORTFOLIO*/
 
 .portfolio-buttons {
