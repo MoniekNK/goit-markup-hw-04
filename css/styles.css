@@ -182,9 +182,17 @@ body {
 
 .slogan-container {
   background-color: var(--page-secondary-background-color);
-  margin: 0 auto;
-  text-align: center;
-  padding: 200px 0;
+  background-image: url("../images/sloganimg.jpg"),
+    linear-gradient(
+      var(--background-color-for-gradient),
+      var(--background-color-for-gradient)
+    );
+  display: flex;
+  background-size: 1600px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .slogan-title-container {
