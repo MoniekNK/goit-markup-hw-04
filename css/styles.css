@@ -70,14 +70,15 @@ body {
 
 .header {
   background-color: var(--object-secondary-background-color);
-  border-bottom: 1px solid var(--header-border-bottom-color);
   width: 100%;
 }
-.header-container {
-  border-bottom: 1px solid var(--header-border-bottom-color);
 
+.header-border {
+  border-bottom: 1px solid var(--header-border-bottom-color);
+}
+.header-container {
   display: flex;
-  justify-content: flex-start;
+  height: 80px;
   align-items: center;
 }
 
@@ -96,7 +97,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-top: 24px;
-  dispaly: flex;
+  display: flex;
 }
 
 /* MENU */
@@ -444,7 +445,6 @@ body {
   text-decoration: none;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding-left: 15px;
   margin-bottom: 20px;
 }
 
