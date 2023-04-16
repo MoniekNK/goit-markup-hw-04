@@ -366,13 +366,14 @@ body {
 }
 
 .team-social {
+  display: block;
   fill: var(--social-links-primary-icon-color);
-  background-color: var(--object-secondary-background-color);
+  cursor: pointer;
   padding: 12px;
 }
 
-.team-social-icon:hover,
-.team-social-icon:focus {
+.team-social:hover,
+.team-social:focus {
   fill: var(--social-links-icon-hover-color);
   background-color: #2196f3;
   border-radius: 50%;
@@ -474,6 +475,10 @@ body {
   text-decoration: none;
   font-style: normal;
   gap: 9px;
+}
+.address-item .address-link:hover,
+.address-item .address-link:focus {
+  color: var(--text-tertiary-color);
 }
 
 .address-list {
