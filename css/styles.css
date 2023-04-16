@@ -522,8 +522,8 @@ body {
   padding: 12px;
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer-link-icons:hover,
+.footer-link-icons:focus {
   fill: var(--social-links-icon-hover-color);
   background-color: #2196f3;
   border-radius: 50%;
