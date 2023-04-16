@@ -96,7 +96,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-top: 24px;
-  margin-right: 93px;
+  dispaly: flex;
 }
 
 /* MENU */
@@ -112,6 +112,7 @@ body {
   column-gap: 46px;
   padding-left: 0;
   --text-primary-color: #212121;
+  margin-left: 93px;
 }
 .menu-item {
   color: var(--text-primary-color);
@@ -152,6 +153,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   column-gap: 30px;
+  margin-left: auto;
 }
 .contact-item {
   color: var(--text-secondary-color);
