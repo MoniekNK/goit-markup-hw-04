@@ -141,7 +141,6 @@ body {
   align-items: center;
   gap: 50px;
   justify-content: space-between;
-  margin-right: 371px;
 }
 
 .contact-list {
@@ -152,7 +151,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
-  column-gap: 30px;
+  gap: 30px;
   margin-left: auto;
 }
 .contact-item {
