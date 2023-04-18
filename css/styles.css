@@ -116,6 +116,7 @@ body {
   margin-left: 93px;
 }
 .menu-item {
+  text-decoration: none;
   color: var(--text-primary-color);
 }
 
@@ -135,6 +136,9 @@ body {
   color: var(--object-primary-background-color);
 }
 
+.menu-link-text {
+  color: var(--object-primary-background-color);
+}
 /* CONTACT */
 
 .header-contact {
